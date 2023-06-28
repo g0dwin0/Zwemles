@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class MultipleConditionCoverage {
     @Test
     public void checkMagGratisZwemles1() {
-        boolean resultaat = magGratisZwemlesVolgen(2, false, false);
+        boolean resultaat = magGratisZwemlesVolgen(0, false, false);
         assertEquals(resultaat, false);
     }
 

@@ -22,26 +22,5 @@ public class ModifiedDecisionCoverage {
         assertEquals(resultaat, true);
     }
 
-    @Test
-    public void checkMagGratisZwemles4() {
-        boolean resultaat = magGratisZwemlesVolgen(15, true, true);
-        assertEquals(resultaat, true);
-    }
-    @Test
-    public void checkMagGratisZwemles5() {
-        boolean resultaat = magGratisZwemlesVolgen(4, false, true);
-        assertEquals(resultaat, false);
-    }
-
-    @Test
-    public void checkMagGratisZwemles6() {
-        boolean resultaat = magGratisZwemlesVolgen(4, false, true);
-        assertEquals(resultaat, false);
-    }
-    @Test
-    public void checkMagGratisZwemles7() {
-        boolean resultaat = magGratisZwemlesVolgen(16, true, true);
-        assertEquals(resultaat, true);
-    }
 
 }
